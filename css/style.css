@@ -1,0 +1,523 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+/* end nav */
+
+.textbox {
+    text-align: center;
+    padding: 45px 0px;
+    /* font-family: oswald;
+    padding-bottom: 15px;
+    font-size: 1rem; */
+}
+
+.textbox h1 {
+    font-size: 2.8rem;
+
+
+}
+
+.textbox p {
+    font-size: 1.2rem;
+
+
+}
+
+.textbox p span {
+    background-color: black;
+    color: white;
+    padding: 0px 7px;
+
+}
+
+/* start header */
+
+header {
+    position: relative;
+}
+
+header .aboveimg {
+    position: absolute;
+    top: 43%;
+    left: 25px;
+    color: white;
+    font-family: oswald;
+
+
+}
+
+header .aboveimg h2 {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 3px;
+
+}
+
+header .aboveimg h1 {
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 5px;
+
+
+}
+
+header .aboveimg button {
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.5rem;
+    background-color: rgba(90, 90, 90, 0.9);
+}
+
+header .aboveimg button:hover {
+    background-color: #ccc;
+
+}
+
+/* end header */
+
+/* start main */
+main {
+    display: flex;
+}
+
+main .leftside {
+    float: left;
+    width: 70%;
+    background-color: #F1F1F1;
+    padding: 25PX;
+
+
+}
+
+main .leftside article {
+    padding: 20px 30px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.articletitle {
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 25px;
+    font-size: 1.3rem;
+}
+
+.articletitle span {
+    color: rgb(120, 118, 118);
+}
+
+.para {
+    font-family: opensans;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.para p {
+    padding: 10px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttons .buttonlike button {
+    background-color: #fff;
+    padding: 10px 13px;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    border: 1px solid gray;
+
+
+
+}
+
+.buttons .buttonlike button:hover {
+    background-color: #ccc;
+}
+
+.buttons .buttonreplise button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+.buttons .buttonreplise button:hover {
+    background-color: silver;
+    color: black;
+}
+
+.buttons .buttonreplise button span {
+    background-color: #fff;
+    color: black;
+    padding: 5px 10px;
+    font-family: open sana;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.hr {
+    margin-top: 20px;
+}
+
+.articlefooter {
+    display: flex;
+    align-items: center;
+
+}
+
+.articlefooter img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+
+
+}
+
+.articlefooter .div2 {
+    padding-left: 40px;
+}
+
+.articlefooter .div2 p {
+    font-size: large;
+    padding: 15px 0px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.articlefooter p span {
+    color: #ccc;
+}
+
+main .leftside article img {
+    width: 100%;
+}
+
+
+
+main .rightside {
+    float: right;
+    width: 30%;
+    background-color: #F1F1F1;
+    padding: 20px 0px;
+}
+
+.rightintro {}
+
+.rightintro p {
+    background-color: black;
+    color: #fff;
+    margin-top: -10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: open sans;
+    line-height: 23px;
+}
+
+.rightsection {
+    margin: 20px 0px;
+
+}
+
+.rightsection h3 {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    font-family: oswald;
+}
+
+.rightsection .sectioncontent {
+    background-color: white;
+
+
+}
+
+.rightsection div #Posts {}
+
+.rightsection .sectioncontent ul {
+    padding: 0px;
+    list-style-type: none;
+
+
+}
+
+.rightsection .sectioncontent ul li {}
+
+.rightsection .sectioncontent ul li:hover {
+    background-color: #ccc;
+}
+
+.rightsection .sectioncontent ul div {}
+
+.post1 div img {
+    margin: 10px;
+}
+
+.post1 {
+    display: flex;
+    align-items: center;
+}
+
+.post1 .div2 {
+    padding-left: 10px;
+}
+
+.rightsection .sectioncontent2 {
+    padding: 20px;
+    background-color: white;
+
+}
+
+.sectioncontent2 p {
+    background-color: #F1F1F1;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/* S tag */
+.sectioncontent3tags {
+    padding: 10px 10px 25px;
+    background-color: white;
+
+}
+
+.sectioncontent3tags span {
+    font-family: OpenSans;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #efebeb;
+    margin-top: 10px;
+
+
+
+}
+
+.sectioncontent3tags span:first-child {
+    background-color: black;
+    color: white;
+    font-weight: 20px;
+    padding: 5px 10px;
+    font-family: OpenSans;
+}
+
+/* s Inspiration */
+.sectioncontent4Inspiration {
+    background-color: white;
+
+}
+
+.sectioncontent4Inspiration div {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+.clear {
+    content: " ";
+    clear: both;
+}
+
+.rightsection h3 {
+    font-family: oswald;
+    font-size: 20px;
+    line-height: 30px;
+
+
+
+}
+
+.sectioncontent5_FollowMe {
+    background-color: white;
+    padding: 10px;
+
+}
+
+.sectioncontent5_FollowMe a {
+    color: black;
+    display: inline-block;
+    font-size: 23px;
+    padding: 5px;
+}
+
+.sectioncontent5_FollowMe a:hover {
+    color: #fbf4f4;
+}
+
+/* S Subscribe */
+
+.sectioncontent6_Subscribe {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.sectioncontent6_Subscribe p {
+    font-family: OpenSans;
+    font-size: 15PX;
+    line-height: 23PX;
+    margin-bottom: 13px;
+
+
+}
+
+.sectioncontent6_Subscribe input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.sectioncontent6_Subscribe button {
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    padding: 10PX;
+    margin-bottom: 10px;
+    color: white;
+
+
+
+}
+
+.sectioncontent6_Subscribe button:hover {
+    background-color: silver;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end main */
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- start footer --> */
+footer {
+    background-color: #616161;
+    padding: 60px;
+}
+
+footer>a {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: OpenSan;
+
+}
+
+footer>a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+footer p {
+    padding-top: 25px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
+
+/* <!-- end footer --> */
+@media screen and (max-width: 800px) {
+    header .aboveimg {
+        top: 15%;
+
+    }
+
+}
+
+@media screen and (max-width : 600px) {
+
+    header .aboveimg h2 {
+        font-size: 20px;
+        line-height: 30px;
+    
+    
+    }
+    
+    header .aboveimg h1 {
+        font-size: 40px;
+        
+        line-height: 45px;
+       
+    
+    }
+    
+    header .aboveimg button {
+       
+        padding: 12px 22px;
+      
+    }
+    main{
+        flex-direction: column;
+    }
+    main .leftside,main .rightside {
+       
+        width: 100%;
+    }
+
+    
+}
+
+
